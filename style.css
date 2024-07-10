@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    visibility: visible;
+    background-color: black;*/
+}
+
+/*font
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Azeret Mono", monospace;
+}*/
+
+
+.mainpage{
+    position: relative;
+    width: 1440px;
+    height: 5245px;
+}
+
+.banner{
+    position: absolute;
+width: 1440px;
+height: 652px;
+border: 1px solid red;
+left: 0;
+right: 0;
+top: 131px;
+bottom: 4462px;
+}
+.middle{
+    position: absolute;
+    width: 998px;
+    height: 582px;
+    border: 2px solid gold;
+    left: 221px;
+    right: 221px;
+    top: 40px;
+    bottom: 4506px;
+    /*layout*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+
+/*banner middle image*/
+/*#p1{
+    position: absolute;
+    width: 240.28px;
+    height: 240px;
+    left: 257.67%;
+    right: -257.67%;
+    top: 0%;
+    bottom: 0%;
+}*/
+
+h1{
+    font: ;
+    position: static;
+    width: 998px;
+    height: 136px;
+/* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+
+button{
+    font-style: normal;
+    position: static;
+width: 243px;
+height: 66px;
+margin-top: auto;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 24px 21px 24px
+}
