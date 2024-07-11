@@ -23,6 +23,7 @@ body{
 
 .mainpage{
     position: relative;
+    border: 2px solid red;
     width: 1440px;
     height: 5245px;
 }
@@ -32,10 +33,10 @@ body{
 width: 1440px;
 height: 652px;
 border: 1px solid red;
-left: 0;
-right: 0;
+
 top: 131px;
 bottom: 4462px;
+margin: 0 auto;
 }
 .middle{
     position: absolute;
@@ -79,16 +80,128 @@ h1{
 }
 
 button{
+    font-size: 25px;
     font-style: normal;
     position: static;
+    font-weight: bold;
 width: 243px;
 height: 66px;
 margin-top: auto;
-
 /* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 21px 24px 21px 24px
+}
+
+/*body 2nd part*/
+.body-2nd-part{
+    position: absolute;
+width: 1140px;
+height: 1393px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+left: 148px;
+right: 152px;
+top: 857px;
+bottom: 2995px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 80px 97px 80px 97px
+}
+
+/* inside layout */
+.inside-layout{
+    position: static;
+width: 946px;
+height: 1233px;
+border: 2px solid lawngreen;
+}
+
+/* inside layout of 4 part */
+.part1{
+    position: static;
+    width: 852px;
+    height: 37px;
+    border: 2px solid violet;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#part1-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+    
+
+.part2{
+    position: static;
+    width: 946px;
+    height: 336px;
+    border: 2px solid violet;
+    display: flex;
+}
+
+#part-2-left{
+    /* position: static; */
+    /* width: 50%;
+    height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    margin-left: 30px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.btn{
+    /* position: static; */
+    width: 170px;
+    height: 48px;
+    border-radius: 2px;
+    padding: 5px;
+    /* margin-top: 200px; */
+}
+
+
+#part-2-right{
+    position: static;
+    width: 50%;
+    height: 100%;
+    border: 2px solid red;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.group4{
+/* margin-left: 190px; */
+
+}
+
+.part3{
+    position: static;
+    width: 946px;
+    height: 336px;
+    border: 2px solid violet;
+    margin-top: 32px;
+}
+
+.part4{
+    position: static;
+    width: 946px;
+    height: 336px;
+    border: 2px solid violet;
+    margin-top: 32px;
+
 }
